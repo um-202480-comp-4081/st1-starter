@@ -116,7 +116,7 @@ If you run the base app and open <http://localhost:3000> in your browser, the fo
     - Then I should see an `h1` element with text "Zoo Directory"
     - And I should see a table with a header row with headers "Name", "Species", and "Location"
     - And I should see two table body rows with the animals' name, species, and location
-    - And I should see a link with text "Home"
+    - And I should see a `p` element containing a link with text "Home"
   - **Scenario**: Navigating to the animal index page from the home page
     - Given I am on the /home page
     - When I click on the "Zoo Directory" link

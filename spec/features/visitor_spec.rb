@@ -59,7 +59,9 @@ RSpec.feature 'Visitor Features' do
             end
           end
         end
-        expect(page).to have_link('Home')
+        within('p') do
+          expect(page).to have_link('Home')
+        end
       end
     end
 
